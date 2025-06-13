@@ -1,9 +1,16 @@
 import "./App.css";
+import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
+/*import   {useState} from "react"*/
+import LikeButton from "./components/LikeButton";
 
 function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+      <LikeButton />
+      <ClickablePicture />
+      <Dice />
     </div>
   );
 }
